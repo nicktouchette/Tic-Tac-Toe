@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: 'Arial', sans-serif;
+}
+#game {
+  text-align: center;
+  width: 450px;
+  margin-left: 2em;
+}
+
+#status {
+  font-size: 2em;
+  margin: .5em;
+}
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  float: left;
+  width: 33.3%;
+  height: 10em;
+}
+
+a {
+  display: block;
+  text-align: center;
+  font-size: 9em;
+  height: 100%;
+}
+
+.clear {
+  clear: both;
+}
+
+#r1c1,#r1c2,#r1c3,#r2c1,#r2c2,#r2c3 {
+  border-bottom: 1px solid black;
+}
+
+#r1c1,#r1c2,#r2c1,#r2c2,#r3c1,#r3c2 {
+  border-right: 1px solid black;
+}
