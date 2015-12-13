@@ -25,6 +25,8 @@ $(document).ready(function() {
       } else if (turnCount === 9) {
         updateStatus("Draw!!!");
         $("a").unbind("click");
+        $("#play-again").fadeIn(2000);
+        $("a").unbind("click");
       } else {
         playerTurn = (playerTurn === "X") ? "O" : "X";
         updateStatus("Player Turn: " + playerTurn);
